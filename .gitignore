@@ -1,2 +1,4 @@
 projects
 rest-sample
+*.pyc
+__pycache__/
