@@ -1,4 +1,4 @@
 projects
-rest-sample
+env
 *.pyc
 __pycache__/
