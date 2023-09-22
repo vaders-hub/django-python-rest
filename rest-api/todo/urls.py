@@ -19,7 +19,8 @@ from django.urls import path, include
 from todoapi import urls as todo_urls
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls')),
-    path('todos/', include(todo_urls)),
+    path("admin/", admin.site.urls),
+    path("api-auth/", include("rest_framework.urls")),
+    path("todos/", include(todo_urls)),
+    path("snippets/", include("snippets.urls")),
 ]
